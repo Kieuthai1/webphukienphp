@@ -17,6 +17,8 @@
                         <img src="admincp/modules/quanlysp/uploads/<?php echo $row_pro['hinhanh'] ?>" >
                         <p class="title_product">Tên sản phẩm: <?php echo $row_pro['tensanpham'] ?></p>
                         <p class="price_product">Giá: <?php echo number_format($row_pro['giasp'],0,',','.').'vnđ'?></p>   
+                        <p> <input type="submit" name="themgiohang" class="themgiohang" value= "Thêm giỏ hàng"></p>
+
                     </a>
                                       
                 </li>
