@@ -3,13 +3,40 @@ body{
     padding: 0;
 }
 .wrapper{
-    border: 1px solid #fff;
-    height: 700px;
+    border: 1px solid #000;
+    height: auto;
     width: 90%;
     margin:  0 auto;
 }
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin:  0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 50%;
+}
+input.themgiohang {
+    z-index: 2;
+    width: 156px;
+    height: 37px;
+    background: linear-gradient(to right, #ffb369 0%, #ff4272 100%);
+    display: block;
+    border-radius: 200px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    line-height: 257%;
+    transition: all 0.7s ease, line-height 0s ease, color 0.4s ease, filter 0.2s ease;
+    cursor: pointer;
+}
 .header{
-    background-image: url("../images/banner1.jpg");
+    background-image: url("../images/banner2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 200px;
     border: 1px solid #1a1a1a ;
@@ -62,7 +89,7 @@ ul.list_siderbar {
     padding: 0;
     margin: 0;
     width: 100%;
-    border: 1px solid ;
+    /* border: 1px solid; */
     list-style: none;
     line-height: 27px;
 }
@@ -82,7 +109,6 @@ ul.list_siderbar li {
     
 }
 .maincontent{
-    border: 1px solid #006;
     height: auto;
     width: 79%;
     margin-top: 5px;
@@ -102,13 +128,15 @@ ul.product_list li {
     margin: 5px;
     float: left;
     background: #f2f2f2;
-    height: 518px;
+    height: 370px;
 }
 ul.product_list li a {
     text-decoration: none;
 }
 ul.product_list li img {
-    width: 100%;
+    width: auto;
+    height: 192px;
+
 }
 p.title_product {
     text-align: center;

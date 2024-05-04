@@ -1,9 +1,15 @@
+
 <div class="siderbar">
             <ul class="list_siderbar">
-                <li><a href="index.php?quanly=danhmucsanpham&id=1">Ốp lưng</a></li>
-                <li><a href="index.php?quanly=danhmucsanpham&id=2">Tai nghe</a></li>
-                <li><a href="index.php?quanly=danhmucsanpham&id=3">Cục sạc</a></li>
-                <li><a href="index.php?quanly=danhmucsanpham&id=1">Dán màn hình</a></li>
-                <li><a href="index.php?quanly=danhmucsanpham&id=1">Lót bàn phím</a></li>     
+
+                            <?php
+                            $sql_danhmuc = "SELECT * FROM tbl_danhmuc ORDER BY id_danhmuc DESC";
+                            $query_danhmuc = mysqli_query($mysqli,$sql_danhmuc);
+                            while($row =mysqli_fetch_array($query_danhmuc)){
+                ?>
+                <li><a href="index.php?quanly=danhmucsanpham&id=<?php echo $row['id_danhmuc'] ?>"><?php echo $row['tendanhmuc'] ?></a></li>
+                  <?php
+                            }
+                  ?>
             </ul>
             </div>
