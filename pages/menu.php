@@ -24,6 +24,8 @@
                 if(isset($_SESSION['dangky'])){  
                 ?>
                   <li><a href="index.php?dangxuat=1">Đăng xuất</a></li>
+                  <li><a href="index.php?quanly=thaydoimatkhau">Thay đổi mật khẩu</a></li>
+
                     <?php
                 }else{
                     ?>

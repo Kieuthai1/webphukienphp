@@ -1,0 +1,1 @@
+<p>Cảm ơn bạn đã mua hàng chung tôi sẽ liên lạc trong thời gian sớm nhất</p>

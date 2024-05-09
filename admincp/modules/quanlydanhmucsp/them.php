@@ -1,5 +1,5 @@
 <p>Thêm danh mục sản phẩm</p>
-<table border="1px" width="50%" style="border-collapse: collapse;">
+<table border="1px" width="100%" style="border-collapse: collapse;">
   
 <form method="POST" action="modules/quanlydanhmucsp/xuly.php">
       <tr>  

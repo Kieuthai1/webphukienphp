@@ -3,7 +3,7 @@
  $query_lietke_danhmucsp = mysqli_query($mysqli, $sql_lietke_danhmucsp);
 ?>
 <p>Liệt kê danh mục sản phẩm</p>
-<table border="1px" width="50%" style="border-collapse: collapse;">
+<table border="1px" width="100%" style="border-collapse: collapse;">
   <tr>
     <th>Id</th>
     <th>Tên danh mục</th>
