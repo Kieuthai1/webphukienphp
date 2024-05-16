@@ -22,8 +22,8 @@
  
 
 
-
-<form  class="neumorphic-form" action=""  autocomplete="off" method="POST">
+<table>
+    <form  class="neumorphic-form" action=""  autocomplete="off" method="POST">
         <div class="neumorphic-card">
         <div class="neumorphic-card__header">Đổi mật khẩu khách hàng</div>
         <form onsubmit="event.preventDefault()"  class="neumorphic-form"  action=""  >
@@ -42,3 +42,4 @@
             <button type="submit" name="doimatkhau" value="Đổi mật khẩu">Đổi mật khẩu</button>
         </form>
 </form>
+</table>

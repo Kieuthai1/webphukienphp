@@ -1,5 +1,3 @@
-
-
 <?php
     if(isset($_POST['dangnhap'])){
       
@@ -18,7 +16,8 @@
         }
     }
 ?>
-<form  class="neumorphic-form" action=""  autocomplete="off" method="POST">
+<table>
+    <form  class="neumorphic-form" action=""  autocomplete="off" method="POST">
         <div class="neumorphic-card">
         <div class="neumorphic-card__header">Đăng nhập khách hàng</div>
         <form onsubmit="event.preventDefault()"  class="neumorphic-form"  action=""  >
@@ -33,3 +32,4 @@
             <button type="submit" name="dangnhap" value="Đăng nhập">Sign in</button>
         </form>
 </form>
+</table>
